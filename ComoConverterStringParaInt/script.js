@@ -15,15 +15,15 @@ console.log("Numero: " + x + " do tipo: " + typeof x) //aqui verificamos q o num
 
 
 
-// Tambem podemos converter um boolean para int
-// porem numeros booleanos, ja sao considerados tipo Number
-// enao o que acontecera na conversao e apenas o arredondamento do numero.
+// Tambem podemos converter um float para int
+// porem numeros float, ja sao considerados tipo Number
+// entao o que acontecera na conversao e apenas o arredondamento do numero.
 
-var boolean = 12.8;
-console.log(boolean);
-console.log("O Numero: " + boolean + " do tipo: "+ typeof boolean)
+var float = 12.8;
+console.log(float);
+console.log("O Numero: " + float + " do tipo: "+ typeof float)
 
-var y = parseInt(boolean);
+var y = parseInt(float);
 console.log(y);
 console.log("Numero: " + y + " do tipo: " + typeof y)
 // console.log(`Numero: ${y} do tipo: ${typeof y}`) // template string
